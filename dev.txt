@@ -5,3 +5,5 @@ git branch
 切换分支：
 git checkout branch-name
 Creating a new branch is quick&simple.
+带参数的log 查看分支合并的图像
+git log --graph --pretty=oneline --abbrev-commit
