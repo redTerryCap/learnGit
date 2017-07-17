@@ -7,3 +7,9 @@ git checkout branch-name
 Creating a new branch is quick&simple.
 带参数的log 查看分支合并的图像
 git log --graph --pretty=oneline --abbrev-commit
+分支管理的策略：
+通常分支合并时，git会用fast forWord 模式，但是这种模式下，删除分支后
+会丢掉分支信息，可以强制禁用fast forword 模式，git就会在merge的时候生成
+一个新的commit，这样分支历史上就可以看出分支的信息；
+禁用fast forWord 合并分支；
+git merge --no-ff -m "sth" dev
