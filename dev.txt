@@ -4,4 +4,4 @@ git checkout -b branch-name
 git branch
 切换分支：
 git checkout branch-name
-
+Creating a new branch is quick and simple;
